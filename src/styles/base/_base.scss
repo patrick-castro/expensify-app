@@ -1,0 +1,22 @@
+html {
+  font-size: 62.5%; // To work with rem's in a base 10 system
+}
+
+body {
+  // Helvetica is loader first, if the browser does not support Helvetica, it takes in the Arial
+  // If the browser also does not take in the Arial, san-serif will be loaded next
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
