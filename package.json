@@ -23,7 +23,7 @@
     "css-loader": "^3.5.3",
     "express": "4.15.4",
     "live-server": "^1.2.1",
-    "moment": "^2.18.1",
+    "moment": "^2.19.3",
     "node-sass": "^4.14.1",
     "normalize.css": "^8.0.1",
     "react": "^16.13.1",
